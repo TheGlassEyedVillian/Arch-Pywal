@@ -1,0 +1,14 @@
+#include</home/nya/.cache/wal/colors.Xresources>
+
+URxvt.scrollBar :	false
+URxvt.font :		xft:Hack:style=regular:pixelsize=12:antialiasing=true
+URxvt.boldFont :	xft:Hack:style=regular:pixelsize=12:antialiasing=true
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+	
