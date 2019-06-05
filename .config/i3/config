@@ -221,10 +221,12 @@ exec --no-startup-id betterlockscreen -w dim
 exec sleep 1;feh --bg-fill /home/nya/Pictures/.wallpaper/wall.png
 #exec eval $(cat ~/.fehbg)
 
-bindsym $mod+Shift+x exec betterlockscreen -l dim
+#bindsym $mod+Shift+x exec /home/nya/.config/i3/lock.sh
+#bindsym $mod+Shift+x exec lock
+#bindsym $mod+Shift+x exec betterlockscreen -l blur
 
 
-bindsym $mod+End exec /home/nya/.config/i3/power_menu.sh
+bindsym $mod+Shift+End exec /home/nya/.config/i3/power_menu.sh
 
 # Screen Shots
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
